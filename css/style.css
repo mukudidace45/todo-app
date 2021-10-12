@@ -20,6 +20,13 @@ h1,h2,h3{
 
     padding-bottom: 20px;
 }
+.logo img{
+margin-left: 10px;
+width: 18%;
+height: 12%;
+border-radius:4px;
+
+}
 p {
 
     margin: 10px 0;
@@ -57,11 +64,18 @@ cursor: pointer;
 background: pink ;
 color: #fff;
 overflow: auto;
+width: 100%;
 
 }
 #navbar a{
     background: pink;
     color: #fff;
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-align: center;
+
 }
 #navbar h1{
     float: left;
